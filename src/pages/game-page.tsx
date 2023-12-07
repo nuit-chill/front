@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { RootState } from '../store';
-import { Button, Heading, Text } from '@chakra-ui/react';
+import { Button, Heading } from '@chakra-ui/react';
 import { toSmall } from '../slices/scale';
 
 export const GamePage = () => {
@@ -10,12 +10,12 @@ export const GamePage = () => {
     return <>
         {
             scale === 0 ? <div>
-                <Heading as='h3' size='lg'>
+                <Heading as='h1' size='xl'>
                     Choisissez votre échelle de jeu
                 </Heading>
-                <Text className='marginBox' fontSize='lg'>Selon votre choix, vous serez invité à prendre des décisions pour une seule personne ou pour un grand pouvoir politique (département/pays).</Text>
+                <p className='marginBox'>Selon votre choix, vous serez invité à prendre des décisions pour une seule personne ou pour un grand pouvoir politique (département/pays).</p>
                 <div>
-                    <Button className='marginBox' colorScheme='teal' size='lg' onClick={() => dispatch(toSmall())}>
+                    <Button className='marginBox' colorScheme='green' size='lg' onClick={() => dispatch(toSmall())}>
                         Individu
                     </Button>
                     <Button className='marginBox' colorScheme='blue' size='lg' onClick={() => dispatch(toSmall())}>

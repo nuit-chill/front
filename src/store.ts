@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
 import scaleReducer from './slices/scale'
+import fontSizeReducer from './slices/font-size'
 
 const store = configureStore({
   reducer: {
-    scale: scaleReducer
+    scale: scaleReducer,
+    fontSize: fontSizeReducer,
   }
 })
 

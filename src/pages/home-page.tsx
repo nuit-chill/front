@@ -1,4 +1,4 @@
-import { Button, ListIcon, ListItem } from '@chakra-ui/react'
+import { Button, Heading, ListIcon, ListItem } from '@chakra-ui/react'
 import { UnorderedList } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -9,13 +9,15 @@ export const HomePage = () => {
     return (
         <>
             <section className='welcome'>
-                <h1>Bienvenue sur NDIECO</h1>
+                <Heading as='h1' size='xl'>
+                    Bienvenue sur NDIECO
+                </Heading>
                 <p><i>Un site qui aspire à élargir vos connaissances sur le changement climatique.</i></p>
-                <h2>Description</h2>
+                <Heading as='h2' size='lg'>Description</Heading>
                 <p>Ce site vous permet de tester vos connaissances autour de l'écologie et du climat graçe à un petit questionnaire interactif. Des incendies, vagues de chaleurs, séchéresses ainsi que la monté des haut et la fonte des glaciers nous laisse comprendre une chose: Le réchauffement climatique est réel et il faut le combattre. Mais comment ? Que pouvons nous faire ? Comment lutter contre un phénomène aussi important ? Il y a des solutions claires et efficaces qui existent. Chacun d'entre nous peut aider, même à une petite échelle. </p>
             </section>
             <section className='gamerules'>
-                <h2>Comment jouer</h2>
+                <Heading as='h2' size='lg'>Comment jouer</Heading>
                 <p>Avant de commencer une partie, vous aurez le choix entre deux types de joueurs:</p>
                 <UnorderedList>
                     <ListItem>Individu</ListItem>
@@ -28,7 +30,7 @@ export const HomePage = () => {
                 <Button colorScheme='green' style={{margin: 10}} onClick={() => navigate("/game")}>Commencer une partie</Button>
                 </section>
             <section className='sources'>
-                <h2>Sources</h2>
+                <Heading as='h2' size='lg'>Sources</Heading>
                 <UnorderedList>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/' isExternal>https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/</Link></ListItem>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/comprendre-urgence/' isExternal>https://reseauactionclimat.org/comprendre-urgence/</Link></ListItem>

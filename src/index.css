@@ -8,8 +8,8 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: green;
-  position: absolute;
+  background-color: #2F855A;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -17,5 +17,5 @@
 }
 
 .marginBox {
-  margin: 20px 10px;
+  margin: 20px 5px;
 }
