@@ -11,15 +11,15 @@ export const GamePage = () => {
         {
             scale === 0 ? <div>
                 <Heading as='h3' size='lg'>
-                    Choose your game scale
+                    Choisissez votre échelle de jeu
                 </Heading>
-                <Text className='marginBox' fontSize='lg'>Depending on your choice, you will be invited to make decisions as a single person or as a large political power (department/country).</Text>
+                <Text className='marginBox' fontSize='lg'>Selon votre choix, vous serez invité à prendre des décisions pour une seule personne ou pour un grand pouvoir politique (département/pays).</Text>
                 <div>
                     <Button className='marginBox' colorScheme='teal' size='lg' onClick={() => dispatch(toSmall())}>
-                        Human Scale
+                        Individu
                     </Button>
                     <Button className='marginBox' colorScheme='blue' size='lg' onClick={() => dispatch(toSmall())}>
-                        Global Scale
+                        Président
                     </Button>
                 </div>
             </div> :

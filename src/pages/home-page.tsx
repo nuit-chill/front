@@ -2,8 +2,10 @@ import { Button, ListIcon, ListItem } from '@chakra-ui/react'
 import { UnorderedList } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { useNavigate } from "react-router-dom";
 
 export const HomePage = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className='welcome'>
@@ -23,7 +25,7 @@ export const HomePage = () => {
                 <p>Une série de 6 cartes tiré aléatoirement vous serait montré. Pour chaque carte vous avez la possibilité de choisir entre deux réponses en cliquant sur la carte et la traînant sois à gauche ou à droite. Un petit dialogue apparaisseras qui vous donneras plus de détails sur le choix que vous êtês en traîn de faire. Une foix vôtre choix fait, vous n'avez plus qu'à relacher la carte. Une autre carte apparaîtras qui réponderas à la question initiale. Vous pouvez la faire disparaître de même façon pour passer à la question suivante.</p>
                 <p>En haut de la page vous trouverez une bar indiquant votre score. Elle va d'un démon symbolisant la destruction de la Terre liée au rechaufement climatique à un ange qui représente un futur d'éspoir. A chacune de vos réponses, votre score seras ajoustée. Au début du jeu vous aurez un score neutre. Le but est de le passer complètement du côté de l'ange après les 6 questions.</p>
                 <p>Pour lancer une partie il vous faut désormais plus que cliquer le button ci-dessous. Bonne chance !</p>
-                <Button colorScheme='green' style={{margin: 10}}>Commencer une partie</Button>
+                <Button colorScheme='green' style={{margin: 10}} onClick={() => navigate("/game")}>Commencer une partie</Button>
                 </section>
             <section className='sources'>
                 <h2>Sources</h2>
