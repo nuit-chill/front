@@ -1,7 +1,17 @@
-body {
-  margin: 0;
+#outlet {
+  margin: 70px;
+}
+
+.navbar {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
 }
