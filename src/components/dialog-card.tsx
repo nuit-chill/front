@@ -5,6 +5,16 @@ import { SwipeableCard, direction } from "./swipeable-card.tsx";
 import { Text } from "@chakra-ui/react";
 import { Fragment, useState } from "react";
 import { progress } from "framer-motion";
+import Angel1 from "../assets/sprites/angel1.webp";
+import Angel2 from "../assets/sprites/angel2.webp";
+import Angel3 from "../assets/sprites/angel3.webp";
+import Angel4 from "../assets/sprites/angel4.webp";
+import Angel5 from "../assets/sprites/angel5.webp";
+import Demon1 from "../assets/sprites/demon1.webp";
+import Demon2 from "../assets/sprites/demon2.webp";
+import Demon3 from "../assets/sprites/demon3.webp";
+import Demon4 from "../assets/sprites/demon4.webp";
+import Demon5 from "../assets/sprites/demon5.webp";
 
 export interface DialogCardProps {
   question: string;
@@ -36,7 +46,9 @@ function DialogCard(props: GameProps) {
   // State related to current game state
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [dialogState, setDialogState] = useState<"question" | "answer">("question");
-
+  const [logo, setLogo] = useState(
+    [Angel1, Angel2, Angel3, Angel4, Angel5, Demon1, Demon2, Demon3, Demon4, Demon5][Math.ceil(Math.random() * 9)]
+  );
   const onPreSwipe = (earlyDir: direction, progress: number) => {
     //    console.log({ earlyDir, progress });
 
@@ -78,7 +90,7 @@ function DialogCard(props: GameProps) {
           left={"-5%"}
           textAlign={"center"}
           borderRadius="md"
-          opacity={state.direction == "left" ? 4 * state.progress : 0}
+          opacity={state.direction == "left" && dialogState == "question" ? 4 * state.progress : 0}
         >
           {props.dialogs[currentQuestion].good}
         </Text>
@@ -95,7 +107,7 @@ function DialogCard(props: GameProps) {
           w={"55%"}
           textAlign={"center"}
           borderRadius="md"
-          opacity={state.direction == "right" ? 4 * state.progress : 0}
+          opacity={state.direction == "right" && dialogState == "question" ? 4 * state.progress : 0}
         >
           {props.dialogs[currentQuestion].bad}
         </Text>
@@ -109,7 +121,7 @@ function DialogCard(props: GameProps) {
               <Fragment key={index}>
                 <ListItem key={index}>
                   <SwipeableCard
-                    detectingSize={180}
+                    detectingSize={150}
                     horizontalOnly={true}
                     onSwipe={onSwipe}
                     onPreSwipe={onPreSwipe}
@@ -117,7 +129,7 @@ function DialogCard(props: GameProps) {
                     contents={
                       <Center w={"100%"}>
                         <Box marginTop={"100%"} borderRadius="lg" boxShadow="outline" position="absolute">
-                          <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+                          <Image borderRadius="lg" src={logo} alt="Dan Abramov" />
                         </Box>
                       </Center>
                     }
@@ -126,7 +138,7 @@ function DialogCard(props: GameProps) {
 
                 <ListItem key={-(index + 1)}>
                   <SwipeableCard
-                    detectingSize={180}
+                    detectingSize={140}
                     horizontalOnly={true}
                     onSwipe={onSwipe}
                     onPreSwipe={onPreSwipe}
@@ -134,7 +146,7 @@ function DialogCard(props: GameProps) {
                     contents={
                       <Center w={"100%"}>
                         <Box marginTop={"100%"} borderRadius="lg" boxShadow="outline" position="absolute">
-                          <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+                          <Image borderRadius="lg" src={logo} alt="Dan Abramov" />
                         </Box>
                       </Center>
                     }
