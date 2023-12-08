@@ -1,4 +1,8 @@
 {
+    "settings": {
+        "title": "Paramètres",
+        "fontsize": "Changer la taille de police"
+    },
     "welcome": {
         "title": "Bienvenue sur NDIECO !",
         "text": "Un site qui aspire à élargir vos connaissances sur le changement climatique."

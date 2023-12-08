@@ -1,4 +1,8 @@
 {
+    "settings": {
+        "title": "Settings",
+        "fontsize": "Change fontsize"
+    },
     "welcome": {
         "title": "Welcome to NDIECO !",
         "text": "A website aspiring to widen your understanding of the climate change."

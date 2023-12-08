@@ -1,11 +1,15 @@
 {
+    "settings": {
+        "title": "Einstellungen",
+        "fontsize": "Schriftgröße ändern"
+    },
     "welcome": {
         "title": "Willkommen zu NDIECO !",
         "text": "Eine Website, die Ihr Verständnis der Erderwärmung erweitern will."
     },
     "description": {
         "title": "Beschreibung",
-        "text": "Diese Website testet Ihr Wissen rund um die Ökologie, nachhaltige Entwicklung und den Klimawandel durch ein interaktives Quiz. Waldbrände, Hitzewellen, Dürren oder der Anstieg des globalen Meeresspiegels und das Schmelzen der Gletscher lassen nur einen Schluss zu: Der Klimawandel ist real und wir müssen ihn bekämpfen. Aber wie? Was können wir tun? Wie können wir eine solche Katastrophe bekämpfen? Zum Glück gibt es Lösungen und jeder kann helfen. Selbst kleine Beiträge können so etwas bewirken."
+        "text": "Diese Website stellt Ihr Wissen rund um die Ökologie, nachhaltige Entwicklung und den Klimawandel durch ein interaktives Quiz auf die Probe. Waldbrände, Hitzewellen, Dürren oder der Anstieg des globalen Meeresspiegels und das Schmelzen der Gletscher lassen nur einen Schluss zu: Der Klimawandel ist real und wir müssen ihn bekämpfen. Aber wie? Was können wir tun? Wie können wir eine solche Katastrophe bekämpfen? Zum Glück gibt es Lösungen und jeder kann helfen. Selbst kleine Beiträge können so etwas bewirken."
     },
     "gamerules": {
         "title": "Spielregeln",
