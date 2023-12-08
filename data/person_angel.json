@@ -1,26 +1,26 @@
 [
     {
         "question": "Est-ce que vôtre alimentation a un impact sur l'écologie ?",
-        "no": "Non",
-        "yes": "Oui, tout dépend de la provenance de la nourriture.",
+        "bad": "Non",
+        "good": "Oui, tout dépend de la provenance de la nourriture.",
         "response": "A cause de l'agriculture, de grandes parties de forêts sont détruit. Il est donc impérativ de les protéger, car les arbres et plantes absorbent le carbone de l'athmosphère. En addition, les élévage produisent une grande quantité de gaz à effet de serre (80% des émissions du secteur agricole en France) pendant leur cycle de vie. Une réduction dans les quantités de viande et de privilégier les produits issue d'agriculture biologique amènent à une réduction des ces gaz.",
-        "response_no": "La provenance de vos alimentation à un plus grand impact que vous pensez.",
-        "response_yes": "Exactement."
+        "response_bad": "La provenance de vos alimentation à un plus grand impact que vous pensez.",
+        "response_good": "Exactement."
     },
     {
         "question": "Est-ce qu'il faut réduire les trajets en voiture ?",
-        "no": "Non, ma contribution n'aurais pas d'impact important.",
-        "yes": "Oui, tant qu'il y a d'autres options.",
+        "bad": "Non, ma contribution n'aurais pas d'impact important.",
+        "good": "Oui, tant qu'il y a d'autres options.",
         "response": "Le secteur des transports est le plus grand émetteur de gaz à effet de serre en France (31%). Il représentent aussi un quart de tous les émissions mondiales. Afin de réduire ces émissions, il est conseillé de prioriter d'autres modes de transports (transports en commun, vélo, marche). ",
-        "response_no": "Seul vous ne pouvez peut-être pas changer le destin du monde. Mais si vous essayez de réduire votre impact ainsi que votre voisin, votre famille, vos collegues cela va avoir un impact important.",
-        "response_yes": "Si chacun fait de son mieux, nous pouvons réduire notre empreinte carbonique."
+        "response_bad": "Seul vous ne pouvez peut-être pas changer le destin du monde. Mais si vous essayez de réduire votre impact ainsi que votre voisin, votre famille, vos collegues cela va avoir un impact important.",
+        "response_good": "Si chacun fait de son mieux, nous pouvons réduire notre empreinte carbonique."
     },
     {
         "question": "Savez vous comment réduire vôtre empreinte carbone chez vous ?",
-        "no": "Je ne suis pas interessé à aider le climat.",
-        "yes": "Oui",
+        "bad": "Je ne suis pas interessé à aider le climat.",
+        "good": "Oui",
         "response": "Pour réduire vôtre empreinte carbone chez vous, il suffit d'éteindre vos appareils en veille (-6kg), réduire la température de vôtre chauffage de 1 ou 2°C (-12kg) ou d'arrêter l'eau en bouteille (-148kg).",
-        "response_no": "La pluspart des actions pour diminuer vos émissions ne demande pas beaucoup d'effort.",
-        "response_yes": ""
+        "response_bad": "La pluspart des actions pour diminuer vos émissions ne demande pas beaucoup d'effort.",
+        "response_good": ""
     }
 ]
