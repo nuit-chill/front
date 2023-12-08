@@ -1,4 +1,4 @@
-import { Box, List, ListItem } from "@chakra-ui/react";
+import { Box, Center, Flex, List, ListItem, Square } from "@chakra-ui/react";
 import { CardSwiper } from "react-card-rotate-swiper";
 import { Image } from "@chakra-ui/react";
 import { SwipeableCard, direction } from "./swipeable-card.tsx";
@@ -15,11 +15,11 @@ export interface DialogCardProps {
 
 export interface Dialog {
   question: string;
-  no: string;
-  yes: string;
+  bad: string;
+  good: string;
   response: string;
-  response_no: string;
-  response_yes: string;
+  response_bad: string;
+  response_good: string;
 }
 
 export interface GameProps {
@@ -59,8 +59,8 @@ function DialogCard(props: GameProps) {
   };
 
   return (
-    <Box w={"80vw"}>
-      <Text align={"center"} h={"6em"}>
+    <Box w={"100%"}>
+      <Text align={"center"} marginBottom={4}>
         {dialogState == "question" ? props.dialogs[currentQuestion].question : props.dialogs[currentQuestion].response}
       </Text>
 
@@ -80,7 +80,7 @@ function DialogCard(props: GameProps) {
           borderRadius="md"
           opacity={state.direction == "left" ? 4 * state.progress : 0}
         >
-          {props.dialogs[currentQuestion].yes}
+          {props.dialogs[currentQuestion].good}
         </Text>
 
         <Text
@@ -97,10 +97,11 @@ function DialogCard(props: GameProps) {
           borderRadius="md"
           opacity={state.direction == "right" ? 4 * state.progress : 0}
         >
-          {props.dialogs[currentQuestion].no}
+          {props.dialogs[currentQuestion].bad}
         </Text>
 
         {/* We know we have a set number of cards: n times questions + n time answers */}
+
         <List key={props.dialogs[currentQuestion].question} position={"relative"}>
           {props.dialogs.map((dialog, index) => {
             return (
@@ -114,11 +115,11 @@ function DialogCard(props: GameProps) {
                     onPreSwipe={onPreSwipe}
                     className={"swiper"}
                     contents={
-                      <>
-                        <Box borderRadius="lg" boxShadow="outline" position="absolute">
+                      <Center w={"100%"}>
+                        <Box marginTop={"100%"} borderRadius="lg" boxShadow="outline" position="absolute">
                           <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
-                      </>
+                      </Center>
                     }
                   />
                 </ListItem>
@@ -131,11 +132,11 @@ function DialogCard(props: GameProps) {
                     onPreSwipe={onPreSwipe}
                     className={"swiper"}
                     contents={
-                      <>
-                        <Box borderRadius="lg" boxShadow="outline" position="absolute">
+                      <Center w={"100%"}>
+                        <Box marginTop={"100%"} borderRadius="lg" boxShadow="outline" position="absolute">
                           <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
-                      </>
+                      </Center>
                     }
                   />
                 </ListItem>
