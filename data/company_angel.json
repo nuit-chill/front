@@ -22,5 +22,13 @@
         "response": "Même si les voitures éléctriques éméttent plus d'émissions lors de leur phase de construction (en moyenne +50%), son usage de l'autre côté émét 15 fois moins que celui des voitures thermiques. Ses émissions sont 2 à 5 fois moins importants que celles des voitures thermiques en France.",
         "response_bad": "C'est vrai, mais sur un cycle de vie entier, les voitures éléctriques émettent moins.",
         "response_good": ""
+    },
+    {
+        "question": "Dans quel domaine dois-je plutôt investir pour lutter contre le rechauffement climatique ?",
+        "bad": "Je dois investir dans le géo-ingénierie de modification du rayonnement solaire (SRM) pour trouver un moyen de refléter la lumière du soleil loin de la surface de la Terre afin de refroidir la planète et de lutter contre le réchauffement climatique.",
+        "good": "Il me faut améliorer la collecte, le tri et le taux de recyclage des déchets de l’industrie et du bâtiment (ferraille, granulats de béton, plastiques…).",
+        "response": "L'investissement dans l'économie circulaire, et recyclage en particuler permettra de réduire l’utilisation de matière première et de ce fait les émissions. Pourtant l'option de la géo-ingénierie est trop risquée. Les effets à long terme d’interventions à si grande échelle sur le système climatique terrestre ne sont pas bien compris, et il pourrait y avoir des conséquences inattendues.",
+        "response_bad": "Ah, en fait j'ai eu une autre idée en tête.",
+        "response_good": "Ah, c'est une très bonne idée !"
     }
 ]

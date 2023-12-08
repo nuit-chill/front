@@ -28,7 +28,15 @@
         "good": "Oui, mais de nouveaux emplois vont être crée.",
         "bad": "Il ne faut pas avancer pour éviter que des innocents perdront leur emploi.",
         "response": "C'est vrai qu'il y auras beaucoup d'emplois qui seront détruit, mais encore plus seront crée. D'après l'Organisation internationale du travail (OIT), il y auras 18 millions d'emplois de plus qu'avant la lutte. Néanmoins il est important de reconnaître que pas toutes les régions seront affectées de la même manière.",
-        "response_bad": "Biensur que la perte de tant d'emploi auras un impact négatif, mais les personnes affectées auront la possibilité de se présenter pour les nouveaux emplois.",
+        "response_bad": "Bien sûr que la perte de tant d'emploi auras un impact négatif, mais les personnes affectées auront la possibilité de se présenter pour les nouveaux emplois.",
         "response_good": ""
+    },
+    {
+        "question": "Dans quel domaine dois-je plutôt investir pour accélerer le rechauffement climatique ?",
+        "bad": "Il me faut augmenter le financement public aux énergies fossiles à l’export. L'extraction, la transformation et le transport des énergies fossiles contribuent bien à l'émission de GES.",
+        "good": "Je dois investir dans la rénovation énergétique des bâtiments. Les bâtiments représentent 20 % des émissions de gaz à effet de serre.",
+        "response": "La plus grande part et la plus grande croissance des émissions brutes de GES se produisent dans le CO2 provenant de la combustion des énergies fossiles et des processus industriels, alors qu'investir dans la rénovation énergétique permettra de mieux isoler les bâtiments et réguler leur température ce qui va réduire fortement la consommation d'énergie et ne va donc qu'améliorer la vie des gens.",
+        "response_bad": "Ah, ça c'est une idée méchante !",
+        "response_good": "Certainement pas !"
     }
 ]
