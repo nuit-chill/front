@@ -10,6 +10,8 @@ export const HomePage = () => {
     const { t } = useTranslation("homepage")
     const navigate = useNavigate()
 
+    const navigator = useNavigate()
+
     return (
         <>
             <section className='welcome'>
