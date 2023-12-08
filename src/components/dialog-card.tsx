@@ -3,7 +3,7 @@ import { CardSwiper } from "react-card-rotate-swiper";
 import { Image } from "@chakra-ui/react";
 import { SwipeableCard, direction } from "./swipeable-card.tsx";
 import { Text } from "@chakra-ui/react";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { progress } from "framer-motion";
 
 export interface DialogCardProps {
@@ -45,17 +45,24 @@ function DialogCard(props: GameProps) {
 
   const onSwipe = (direction: direction) => {
     setState({ progress: 0, direction: "none" });
-    if (dialogState == "question") {
-      setDialogState("answer");
-    } else {
-      setDialogState("question");
-      setCurrentQuestion((currentQuestion) => currentQuestion + 1);
-    }
+    if (direction == "none") return;
+    // TODO find a way to redraw the text without killing the current gasp animation
+    // In the meantime, a small wait is done.
+    setTimeout(() => {
+      if (dialogState == "question") {
+        setDialogState("answer");
+      } else {
+        setDialogState("question");
+        setCurrentQuestion((currentQuestion) => Math.min(currentQuestion + 1, props.dialogs.length - 1));
+      }
+    }, 500);
   };
 
   return (
-    <Box>
-      <Text align={"center"}>{props.dialogs[currentQuestion].question}</Text>
+    <Box w={"80vw"}>
+      <Text align={"center"}>
+        {dialogState == "question" ? props.dialogs[currentQuestion].question : props.dialogs[currentQuestion].response}
+      </Text>
 
       <Box pos={"relative"}>
         <Text
@@ -98,7 +105,7 @@ function DialogCard(props: GameProps) {
           {props.dialogs.map((dialog, index) => {
             return (
               // Question, then answer
-              <>
+              <Fragment key={index}>
                 <ListItem key={index}>
                   <SwipeableCard
                     detectingSize={180}
@@ -132,7 +139,7 @@ function DialogCard(props: GameProps) {
                     }
                   />
                 </ListItem>
-              </>
+              </Fragment>
             );
           })}
         </List>
