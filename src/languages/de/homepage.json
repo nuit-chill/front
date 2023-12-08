@@ -1,0 +1,22 @@
+{
+    "welcome": {
+        "title": "Willkommen zu NDIECO !",
+        "text": "Eine Website, die Ihr Verständnis der Erderwärmung erweitern will."
+    },
+    "description": {
+        "title": "Beschreibung",
+        "text": "Diese Website testet Ihr Wissen rund um die Ökologie, nachhaltige Entwicklung und den Klimawandel durch ein interaktives Quiz. Waldbrände, Hitzewellen, Dürren oder der Anstieg des globalen Meeresspiegels und das Schmelzen der Gletscher lassen nur einen Schluss zu: Der Klimawandel ist real und wir müssen ihn bekämpfen. Aber wie? Was können wir tun? Wie können wir eine solche Katastrophe bekämpfen? Zum Glück gibt es Lösungen und jeder kann helfen. Selbst kleine Beiträge können so etwas bewirken."
+    },
+    "gamerules": {
+        "title": "Spielregeln",
+        "intro": "Bevor das Spiel beginnt, müssen Sie sich zwischen zwei Charakteren wählen:",
+        "individual": "Individuum",
+        "president": "Präsident",
+        "text_start": "Die Fragen werden sich ihrer Wahl anpassen.",
+        "text_continue": "Eine Reihe von 6 zufälligen Karten wird Ihnen gezeigt. Für jede Karte können Sie eine Antwort auswählen, indem Sie die Karte anklicken und auf eine Seite ziehen. Es erscheint ein kleiner Dialog, in dem Sie etwas mehr über Ihre Wahl erfahren. Wenn Sie sich entschieden haben, können Sie die Karte einfach loslassen. Daraufhin erscheint eine weitere Karte mit der Antwort auf die Frage. Sie können sie auf ähnliche Weise wieder verschwinden lassen.",
+        "text_after": "Oben auf der Seite finden Sie einen Balken, der Ihren Punktestand anzeigt. Er geht von einem Dämonen (der die Zerstörung der Erde symbolisiert) bis zu einem Engel (der für Hoffnung und eine strahlende Zukunft steht). Bei jeder Antwort wird Ihr Punktestand angepasst. Zu Beginn des Spiels haben Sie einen neutralen Punktestand. Das Ziel ist es, nach den 6 Fragen so nah wie möglich an den Engel heranzukommen.",
+        "text_end": "Jetzt müssen Sie nur noch auf den Knopf drücken und spielen! Viel Glück!"
+    },
+    "play_button": "Spiel starten",
+    "sources": "Quellen"
+}

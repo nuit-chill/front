@@ -13,6 +13,7 @@ import store from './store.js'
 import { GamePage } from './pages/game-page.js'
 import homepage_en from './languages/en/homepage.json'
 import homepage_fr from './languages/fr/homepage.json'
+import homepage_de from './languages/de/homepage.json'
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
 
@@ -26,6 +27,9 @@ i18next.init({
    fr: {
     homepage: homepage_fr,
    },
+   de: {
+    homepage: homepage_de,
+   }
   },
  })
  

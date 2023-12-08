@@ -9,6 +9,7 @@ const SelectLanguage = () => {
             <Select defaultValue={i18n.language}>
             <option onClick={() => i18n.changeLanguage("en")} value="en">en</option>
             <option onClick={() => i18n.changeLanguage("fr")} value="fr">fr</option>
+            <option onClick={() => i18n.changeLanguage("de")} value="de">de</option>
             </Select>
         </>
     )
