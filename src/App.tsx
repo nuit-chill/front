@@ -32,6 +32,13 @@ function App() {
             fontSize: font + 2 + 'px',
           }
         }
+      },
+      Select: {
+        baseStyle: {
+          field: {
+            fontSize: font + 'px',
+          }
+        }
       }
     }
   })
