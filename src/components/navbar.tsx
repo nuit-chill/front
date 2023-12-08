@@ -1,6 +1,6 @@
 import { SettingsIcon } from "@chakra-ui/icons"
 import { IconButton, Popover, PopoverTrigger } from "@chakra-ui/react";
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/ndi-logo_small.webp';
 import { Settings } from "./settings";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
       <nav className="navbar">
         <div>
-        <Link to='/'><img src={Logo} alt="return to home page logo" /></Link>
+        <Link to='/'><img height='50px' width='50px' src={Logo} alt="return to home page logo" /></Link>
         </div>
         <div>
             <Popover>

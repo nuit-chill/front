@@ -27,6 +27,9 @@ function App() {
           },
           lg: {
             fontSize: font + 6 + 'px',
+          },
+          md: {
+            fontSize: font + 2 + 'px',
           }
         }
       }
