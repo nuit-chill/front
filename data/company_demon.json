@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Est-ce que la température mondiale est influencé par les gaz à effets de serre ?",
+        "no": "Impossible",
+        "yes": "Je pense, sinon on n'en ferais pas un si grand problème.",
+        "response": "Les gaz à effets de serre permettent de garder la température moyenne sur Terre à +15°C. Sans eux, il ferait -18°C rendant la vie impossible.",
+        "response_no": "Biensur que si!",
+        "response_yes": "Vous avez raison."
+    },
+    {
+        "question": "Les financements à l'internationale, permettent-ils éfficacement de contrer le réchauffement climatique ?",
+        "yes": "Nous devrons payer plus.",
+        "no": "Oui, beaucoup de pays s'entre aident à propos de ce sujet.",
+        "response": "Les payes développés ont un plus grande empreinte carbone (34 à 45% des émissions globales sont fait par les 10% des ménages avec les revenus les plus élévés). Néanmoins, les financements sont largément insuffisant, surtout envers les payes en développement.",
+        "response_yes": "Exactement. Les pays dévéloppés ont une plus grande responsabilité envers les émissions et devraient faire de leur mieux pour aider les autres.",
+        "response_no": "Même si il y a déjà des aides financières mise en place, cela n'est pas suffisant."
+    },
+    {
+        "question": "Est-ce il vraiment impératif de diminuer nos émissions dès maintenant sachant que la France représente seulement 1% des émissions mondiales ?",
+        "yes": "Non, 1% est négligeable.",
+        "no": "Chaque pourcent est important!",
+        "response": "D'après l'accord de Paris l'objectif des émissions par habitant devraient être autour des 2t. Mais si on divise les 1% par les habitants on se retrouve avec 6,2t de CO2, le triple des objectifs visés. Si on ajoute les émissions importées (biens de consommations produits à l'étranger et importé en France) chaque habitant aurais émit 9tCO2 en moyenne, plus de 4 fois l'objectif visé.",
+        "response_no": "Chaque pourcent est important, encore plus si un pourcent revient à 418 MtCO2eq de GES (2021).",
+        "response_yes": "Même si 1% d'émissions paraîssent peut, cela revient autour des 418 MtCO2eq de GES (2021)."
+    }
+]

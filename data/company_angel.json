@@ -1,0 +1,25 @@
+[
+    {
+        "question": "Est-ce que la température mondiale est influencé par les gaz à effets de serre ?",
+        "no": "Impossible",
+        "yes": "Je pense, sinon on n'en ferais pas un si grand problème.",
+        "response": "Les gaz à effets de serre permettent de garder la température moyenne sur Terre à +15°C. Sans eux, il ferait -18°C rendant la vie impossible.",
+        "response_no": "Biensur que si!",
+        "response_yes": "Vous avez raison."
+    },
+    {
+        "question": "Est-ce qu'il faut investir dans les énérgies renouvellables ?",
+        "no": "L'énérgie nucléaire marche bien. Il n'est pas nécéssaire de changer nos fonctionnements.",
+        "yes": "Oui.",
+        "response": "Les énérgies renouvelables nous permettrons à réduire nos émissions dans tous les secteurs au moins de la moitié.",
+        "response_no": "Le nucléaire apporte assez d'énérgie, mais son potentiel d'aider à limiter le réchauffement climatique est beaucoup moins important que celui des éoliens ou du solaire.",
+        "response_yes": ""
+    },
+    {
+        "question": "Est-ce que les voitures éléctriques sont vraiment meilleur que les voitures thermiques ?",
+        "no": "Non, leur production est plus émétteur que celle des voitures thermiques.",
+        "yes": "Oui, sinon on nous demanderais pas de changer de voiture.",
+        "response": "Même si les voitures éléctriques éméttent plus d'émissions lors de leur phase de construction (en moyenne +50%), son usage de l'autre côté émét 15 fois moins que celui des voitures thermiques. Ses émissions sont 2 à 5 fois moins importants que celles des voitures thermiques en France.",
+        "response_no": "C'est vrai, mais sur un cycle de vie entier, les voitures éléctriques émettent moins."
+    }
+]
