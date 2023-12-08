@@ -1,7 +1,12 @@
 {
     "settings": {
         "title": "Settings",
-        "fontsize": "Change fontsize"
+        "fontsize": "Change fontsize",
+        "return": "Return to home page"
+    },    
+    "errors": {
+        "title":"Oops! Unexpected Error.",
+        "text": "Something went wrong."
     },
     "welcome": {
         "title": "Welcome to NDIECO !",
@@ -22,5 +27,9 @@
         "text_end": "Now, all that is left is to click this button and play! Good luck!"
     },
     "play_button": "Start game",
-    "sources": "Sources"
+    "sources": "Sources",
+    "game": {
+        "title": "Choose your game type",
+        "text": "Depending on your choice, you'll be asked to make decisions for a single person or for a large political power (department/country)."
+    }
 }

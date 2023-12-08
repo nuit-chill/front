@@ -18,7 +18,7 @@ export const HomePage = () => {
             </section>
             <section className='gamerules'>
                 <Heading as='h2' size='lg'>{t("gamerules.title")}</Heading>
-                <p>{t("gamerules.intro")}</p>
+                <p>{t("intro")}</p>
                 <UnorderedList>
                     <ListItem>{t("gamerules.individual")}</ListItem>
                     <ListItem>{t("gamerules.president")}</ListItem>
@@ -37,6 +37,8 @@ export const HomePage = () => {
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/urgence-climatique/' isExternal>https://reseauactionclimat.org/urgence-climatique/</Link></ListItem>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/wp-content/uploads/2023/03/rac-brochure-synthese-giec_web-leger.pdf' isExternal>https://reseauactionclimat.org/wp-content/uploads/2023/03/rac-brochure-synthese-giec_web-leger.pdf</Link></ListItem>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/publications/repondre-aux-defis-climatiques-lalimentation/' isExternal>https://reseauactionclimat.org/publications/repondre-aux-defis-climatiques-lalimentation/</Link></ListItem>
+                    <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://climat.cned.fr/formations/causes-et-attenuation/' isExternal>https://climat.cned.fr/formations/causes-et-attenuation/</Link></ListItem>
+                    <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://nosgestesclimat.fr/actions' isExternal>https://nosgestesclimat.fr/actions</Link></ListItem>
                 </UnorderedList>
             </section>
         </>

@@ -1,7 +1,12 @@
 {
     "settings": {
         "title": "Einstellungen",
-        "fontsize": "Schriftgröße ändern"
+        "fontsize": "Schriftgröße ändern",
+        "return": "Zurück zur Startseite"
+    },
+    "errors": {
+        "title":"Ups! Ein unerwarter Fehler ist aufgetreten.",
+        "text": "Irgendetwas ist schiefgelaufen."
     },
     "welcome": {
         "title": "Willkommen zu NDIECO !",
@@ -22,5 +27,9 @@
         "text_end": "Jetzt müssen Sie nur noch auf den Knopf drücken und spielen! Viel Glück!"
     },
     "play_button": "Spiel starten",
-    "sources": "Quellen"
+    "sources": "Quellen",
+    "game": {
+        "title": "Wählen Sie Ihre Herausforderung",
+        "text": "Je nach Ihrer Wahl werden Sie aufgefordert, Entscheidungen für eine einzelne Person oder für eine große politische Macht (Bundesland/Land) zu treffen."
+    }
 }

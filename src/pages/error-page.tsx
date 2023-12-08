@@ -1,12 +1,15 @@
 import { isRouteErrorResponse, useRouteError } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
+
 
 export default function ErrorPage() {
+  const { t } = useTranslation("homepage");
   const error: any = useRouteError();
 
   if (isRouteErrorResponse(error)) {
     return (
       <div id="error-page">
-        <h1>Oops! {error.status}</h1>
+        <h1>{error.status}</h1>
         <p>{error.statusText}</p>
         {error.data?.message && (
           <p>
@@ -18,8 +21,8 @@ export default function ErrorPage() {
   } else if (error instanceof Error) {
     return (
       <div id="error-page">
-        <h1>Oops! Unexpected Error</h1>
-        <p>Something went wrong.</p>
+        <h1>{t("errors.title")}</h1>
+        <p>{t("errors.text")}</p>
         <p>
           <i>{error.message}</i>
         </p>

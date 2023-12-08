@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 const SelectLanguage = () => {
     const { i18n } = useTranslation("homepage");
-    console.log(i18n.language)
+    
     return (
         <>
             <Select defaultValue={i18n.language}

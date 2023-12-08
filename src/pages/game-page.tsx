@@ -2,28 +2,30 @@ import { useSelector, useDispatch } from 'react-redux'
 import { RootState } from '../store';
 import { Button, Heading } from '@chakra-ui/react';
 import { toSmall } from '../slices/scale';
+import { useTranslation } from 'react-i18next'
 
 export const GamePage = () => {
     const scale = useSelector((state: RootState) => state.scale.value);
     const dispatch = useDispatch();
+    const { t } = useTranslation("homepage");
 
     return <>
         {
             scale === 0 ? <div>
                 <Heading as='h1' size='xl'>
-                    Choisissez votre échelle de jeu
+                    {t("game.title")}
                 </Heading>
-                <p className='marginBox'>Selon votre choix, vous serez invité à prendre des décisions pour une seule personne ou pour un grand pouvoir politique (département/pays).</p>
+                <p className='marginBox'>{t("game.text")}</p>
                 <div>
                     <Button className='marginBox' colorScheme='green' size='lg' onClick={() => dispatch(toSmall())}>
-                        Individu
+                    {t("gamerules.individual")}
                     </Button>
                     <Button className='marginBox' colorScheme='blue' size='lg' onClick={() => dispatch(toSmall())}>
-                        Président
+                    {t("gamerules.president")}
                     </Button>
                 </div>
             </div> :
-            <div>game</div>
+            <div>{t("play_button")}</div>
         }
     </>
 }

@@ -1,7 +1,12 @@
 {
     "settings": {
         "title": "Paramètres",
-        "fontsize": "Changer la taille de police"
+        "fontsize": "Changer la taille de police",
+        "return": "Retourner à la page d'acceuil"
+    },
+    "errors": {
+        "title":"Oups ! Erreur inattendue.",
+        "text": "Il y a eu un problème."
     },
     "welcome": {
         "title": "Bienvenue sur NDIECO !",
@@ -22,5 +27,9 @@
         "text_end": "Pour lancer une partie il vous faut désormais plus que cliquer le button ci-dessous. Bonne chance !"
     },
     "play_button": "Commencer une partie",
-    "sources": "Sources"
+    "sources": "Sources",
+    "game": {
+        "title": "Choisissez votre échelle de jeu",
+        "text": "Selon votre choix, vous serez invité à prendre des décisions pour une seule personne ou pour un grand pouvoir politique (département/pays)."
+    }
 }
