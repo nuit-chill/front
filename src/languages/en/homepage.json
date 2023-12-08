@@ -1,0 +1,22 @@
+{
+    "welcome": {
+        "title": "Welcome to NDIECO !",
+        "text": "A website aspiring to widen your understanding of the climate change."
+    },
+    "description": {
+        "title": "Description",
+        "text": "This website tests your knowledge around the themes of ecology, sustainable development and the climate change through an interactive quiz. Wildfires, heat waves, drought or the rise of the global sea level and the melting of the glaciers all leads us to one conclusion: climate change is real and we have to fight it. But how ? What can we do ? How to combat such a desaster ? Thankfully, there are efficient solutions and everyone can help, even small contributions can make a difference."
+    },
+    "gamerules": {
+        "title": "How to play",
+        "intro": "Before the game starts, you will have to choose between two characters:",
+        "individual": "Individual",
+        "president": "President",
+        "text_start": "The questions will differ depending on your choice.",
+        "text_continue": "A series of 6 random cards will be shown to you. For each card you can select an answer by clicking and dragging the card to either side. A small dialogue will appear, giving you a bit more details about the choice you're about to make. Once you've chosen, you can simply let go of the card. Another card with the answer to the question will then appear. You can make it disappear in a similar fashion.",
+        "text_after": "At the top of the page you will find a bar indicating your score. It will go from a demon (symbolizing the destruction of the earth) to an angel (representing hope and a bright future). At every answer, your score will be adjusted. At the start of the game, you will have a neutral score. The goal is to have your score as close as possible to the angel after the 6 questions.",
+        "text_end": "Now, all that is left is to click this button and play! Good luck!"
+    },
+    "play_button": "Start game",
+    "sources": "Sources"
+}

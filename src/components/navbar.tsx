@@ -4,6 +4,8 @@ import Logo from '../assets/logo.svg';
 import { Settings } from "./settings";
 import { Link } from "react-router-dom";
 
+
+
 const Navbar = () => {
     return (
       <nav className="navbar">

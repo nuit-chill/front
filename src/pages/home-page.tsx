@@ -2,35 +2,35 @@ import { Button, Heading, ListIcon, ListItem } from '@chakra-ui/react'
 import { UnorderedList } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { useNavigate } from "react-router-dom";
+import { useTranslation } from 'react-i18next'
+
 
 export const HomePage = () => {
-    const navigate = useNavigate();
+    const { t } = useTranslation("homepage")
+
     return (
         <>
             <section className='welcome'>
-                <Heading as='h1' size='xl'>
-                    Bienvenue sur NDIECO
-                </Heading>
-                <p><i>Un site qui aspire à élargir vos connaissances sur le changement climatique.</i></p>
-                <Heading as='h2' size='lg'>Description</Heading>
-                <p>Ce site vous permet de tester vos connaissances autour de l'écologie et du climat graçe à un petit questionnaire interactif. Des incendies, vagues de chaleurs, séchéresses ainsi que la monté des haut et la fonte des glaciers nous laisse comprendre une chose: Le réchauffement climatique est réel et il faut le combattre. Mais comment ? Que pouvons nous faire ? Comment lutter contre un phénomène aussi important ? Il y a des solutions claires et efficaces qui existent. Chacun d'entre nous peut aider, même à une petite échelle. </p>
+                <Heading as='h1' size='xl'>{t("welcome.title")}</Heading>
+                <p><i>{t("welcome.text")}</i></p>
+                <Heading as='h2' size='lg'>{t("description.title")}</Heading>
+                <p>{t("description.text")}</p>
             </section>
             <section className='gamerules'>
-                <Heading as='h2' size='lg'>Comment jouer</Heading>
-                <p>Avant de commencer une partie, vous aurez le choix entre deux types de joueurs:</p>
+                <Heading as='h2' size='lg'>{t("gamerules.title")}</Heading>
+                <p>{t("gamerules.intro")}</p>
                 <UnorderedList>
-                    <ListItem>Individu</ListItem>
-                    <ListItem>Président</ListItem>
+                    <ListItem>{t("gamerules.individual")}</ListItem>
+                    <ListItem>{t("gamerules.president")}</ListItem>
                 </UnorderedList>
-                <p>En fonction de vôtre choix, les questions qui vous seront posé vont varier.</p>
-                <p>Une série de 6 cartes tiré aléatoirement vous serait montré. Pour chaque carte vous avez la possibilité de choisir entre deux réponses en cliquant sur la carte et la traînant sois à gauche ou à droite. Un petit dialogue apparaisseras qui vous donneras plus de détails sur le choix que vous êtês en traîn de faire. Une foix vôtre choix fait, vous n'avez plus qu'à relacher la carte. Une autre carte apparaîtras qui réponderas à la question initiale. Vous pouvez la faire disparaître de même façon pour passer à la question suivante.</p>
-                <p>En haut de la page vous trouverez une bar indiquant votre score. Elle va d'un démon symbolisant la destruction de la Terre liée au rechaufement climatique à un ange qui représente un futur d'éspoir. A chacune de vos réponses, votre score seras ajoustée. Au début du jeu vous aurez un score neutre. Le but est de le passer complètement du côté de l'ange après les 6 questions.</p>
-                <p>Pour lancer une partie il vous faut désormais plus que cliquer le button ci-dessous. Bonne chance !</p>
-                <Button colorScheme='green' style={{margin: 10}} onClick={() => navigate("/game")}>Commencer une partie</Button>
+                <p>{t("gamerules.text_start")}</p>
+                <p>{t("gamerules.text_continue")}</p>
+                <p>{t("gamerules.text_after")}</p>
+                <p>{t("gamerules.text_end")}</p>
+                <Button colorScheme='green' style={{margin: 10}}>{t("play_button")}</Button>
                 </section>
             <section className='sources'>
-                <Heading as='h2' size='lg'>Sources</Heading>
+                <Heading as='h2' size='lg'>{t("sources")}</Heading>
                 <UnorderedList>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/' isExternal>https://reseauactionclimat.org/6e-rapport-du-giec-quelles-solutions-face-au-changement-climatique/</Link></ListItem>
                     <ListItem><ListIcon as={ExternalLinkIcon} color='teal'/><Link color='teal' href='https://reseauactionclimat.org/comprendre-urgence/' isExternal>https://reseauactionclimat.org/comprendre-urgence/</Link></ListItem>
