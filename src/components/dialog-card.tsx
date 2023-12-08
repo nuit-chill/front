@@ -115,7 +115,7 @@ function DialogCard(props: GameProps) {
                     className={"swiper"}
                     contents={
                       <>
-                        <Box position="absolute" border="10px" padding={"10px"} borderColor="gray.200">
+                        <Box borderRadius="lg" boxShadow="outline" position="absolute">
                           <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
                       </>
@@ -132,7 +132,7 @@ function DialogCard(props: GameProps) {
                     className={"swiper"}
                     contents={
                       <>
-                        <Box position="absolute" border="10px" borderColor="gray.200">
+                        <Box borderRadius="lg" boxShadow="outline" position="absolute">
                           <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
                       </>
