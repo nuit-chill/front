@@ -3,10 +3,12 @@ import { UnorderedList } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { useTranslation } from 'react-i18next'
+import { useNavigate } from 'react-router-dom'
 
 
 export const HomePage = () => {
     const { t } = useTranslation("homepage")
+    const navigate = useNavigate()
 
     return (
         <>
@@ -27,7 +29,7 @@ export const HomePage = () => {
                 <p>{t("gamerules.text_continue")}</p>
                 <p>{t("gamerules.text_after")}</p>
                 <p>{t("gamerules.text_end")}</p>
-                <Button colorScheme='green' style={{margin: 10}}>{t("play_button")}</Button>
+                <Button colorScheme='green' style={{margin: 10}} onClick={() => navigate('/game')}>{t("play_button")}</Button>
                 </section>
             <section className='sources'>
                 <Heading as='h2' size='lg'>{t("sources")}</Heading>

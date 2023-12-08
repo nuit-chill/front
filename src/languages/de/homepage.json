@@ -2,6 +2,9 @@
     "settings": {
         "title": "Einstellungen",
         "fontsize": "Schriftgröße ändern",
+        "switch_to": "Wechseln Sie in den",
+        "dark_mode": "Dunkelmodus",
+        "light_mode": "Lichtmodus",
         "return": "Zurück zur Startseite"
     },
     "errors": {

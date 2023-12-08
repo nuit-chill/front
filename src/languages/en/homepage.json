@@ -2,6 +2,9 @@
     "settings": {
         "title": "Settings",
         "fontsize": "Change fontsize",
+        "switch_to": "Switch to",
+        "dark_mode": "dark mode",
+        "light_mode": "light mode",
         "return": "Return to home page"
     },    
     "errors": {

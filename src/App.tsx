@@ -9,6 +9,8 @@ import { extendTheme } from '@chakra-ui/react'
 function App() {
   const font = useSelector((state: RootState) => state.fontSize.value);
   const theme = extendTheme({
+    initialColorMode: 'system',
+    useSystemColorMode: true,
     components: {
       Button: {
         sizes: {

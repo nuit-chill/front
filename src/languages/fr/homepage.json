@@ -2,6 +2,9 @@
     "settings": {
         "title": "Paramètres",
         "fontsize": "Changer la taille de police",
+        "switch_to": "Passer en",
+        "dark_mode": "mode sombre",
+        "light_mode": "mode claire",
         "return": "Retourner à la page d'acceuil"
     },
     "errors": {
