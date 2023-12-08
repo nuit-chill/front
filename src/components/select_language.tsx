@@ -6,10 +6,11 @@ const SelectLanguage = () => {
     console.log(i18n.language)
     return (
         <>
-            <Select defaultValue={i18n.language}>
-            <option onClick={() => i18n.changeLanguage("en")} value="en">en</option>
-            <option onClick={() => i18n.changeLanguage("fr")} value="fr">fr</option>
-            <option onClick={() => i18n.changeLanguage("de")} value="de">de</option>
+            <Select defaultValue={i18n.language}
+            onChange={(ev) => i18n.changeLanguage(ev.target.value)}>
+            <option value="en">en</option>
+            <option value="fr">fr</option>
+            <option value="de">de</option>
             </Select>
         </>
     )
