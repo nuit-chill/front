@@ -54,7 +54,7 @@ function App() {
         </div>
       </div>
     </ChakraProvider>
-  )
+  );
 }
 
-export default App
+export default App;
