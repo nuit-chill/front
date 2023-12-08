@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Does your diet have an impact on the environment?",
+        "bad": "No",
+        "good": "Yes, it all depends on where the food comes from.",
+        "response": "Large areas of forest have been destroyed by agriculture. It is therefore imperative to protect them, as trees and plants absorb carbon from the atmosphere. In addition, livestock farming produces large quantities of greenhouse gases (80% of emissions from the agricultural sector in France) during its life cycle. Reducing the amount of meat you eat and favouring products from organic farming will help to reduce these gases.",
+        "response_bad": "Where your food comes from has a greater impact than you might think.",
+        "response_good": "Exactly."
+    },
+    {
+        "question": "What are the most extreme risks associated with global warming?",
+        "good": "Extreme events such as floods or droughts.",
+        "bad": "Apart from an average rise of 2°C, not much else.",
+        "response": "The main risks will be extreme climatic events, i.e. periods of drought, flooding, storms, cyclones, as well as hot and cold spells. In addition, there are also trends such as rising sea levels and temperatures.",
+        "response_bad": "Even if 2°C doesn't sound like much, it can have a big impact on the environment.",
+        "response_good": "Exactly!"
+    },
+    {
+        "question": "Do you know how to reduce your carbon footprint at home?",
+        "bad": "I'm not interested in helping the climate.",
+        "good": "Yes",
+        "response": "To reduce your carbon footprint at home, simply switch off your appliances on standby (-6kg), reduce the temperature of your heating by 1 or 2°C (-12kg) or stop drinking bottled water (-148kg).",
+        "response_bad": "Most actions to reduce your emissions don't require much effort.",
+        "response_good": ""
+    }
+]

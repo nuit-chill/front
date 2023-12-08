@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Sollten man weniger mit dem Flugzeug fliegen ?",
+        "bad": "Nein, es ist die einfachste Art zu reisen.",
+        "good": "Ja, Flugzeuge setzten viele Treibhausgase frei.",
+        "response": "Flugzeuge sind für 2,4 % der CO2-Emissionen verantwortlich. Bisher gibt es keine Energielösung, die mit dem Wachstum dieses Sektors mithalten kann. Die Reduzierung der Emissionen ist der effektivste Weg, um diese zu verringern.",
+        "response_good": "Auch wenn dies ein Mittel ist, das aufgrund der Kosten und des Zeitaufwands selbst bei kurzen Entfernungen häufig genutzt wird, ist es wichtig, ihre Nutzung zu reduzieren.",
+        "response_bad": "Einfach bedeutet nicht gut für die Umwelt."
+    },
+    {
+        "question": "Wann sollten Sie Ihre alten Geräte ersetzen?",
+        "good": "Wenn sie kaputt sind und nicht mehr repariert werden können.",
+        "bad": "Sobald das neue Modell herausgekommen ist.",
+        "response": "Beim Kauf eines elektronischen Geräts ist es wichtig zu bedenken, dass Sie es mehrere Jahre lang benutzen werden. Kaufen Sie nicht aufgrund von Trends, sondern vielmehr der Funktionalitäten wegen, vielleicht sogar aufgrund Ihres Vorwissens über dieses Modell und Ihrer Fähigkeiten, es zu reparieren. Jedes Gerät hat Produktionskosten und Treibhausgasemissionen. Wenn Sie also jedes Jahr ein neues Gerät kaufen, hinterlassen Sie eine große Kohlenstoffspur.",
+        "response_good": "Das ist die richtige Antwort!",
+        "response_bad": "Lassen Sie sich nicht so leicht von den anderen beeinflussen!"
+    },
+    {
+        "question": "Sollten Autofahrten reduziert werden?",
+        "bad": "Nein, mein Beitrag würde keine großen Auswirkungen haben.",
+        "good": "Ja, solange es andere Möglichkeiten gibt.",
+        "response": "Der Verkehrssektor ist der größte Emittent von Treibhausgasen in Frankreich (31%). Er ist auch für ein Viertel aller weltweiten Emissionen verantwortlich. Um diese Emissionen zu reduzieren, sollten Sie andere Verkehrsmittel (öffentliche Verkehrsmittel, Fahrrad, zu Fuß) bevorzugen.",
+        "response_bad": "Allein können Sie das Schicksal der Welt vielleicht nicht ändern. Aber wenn Sie Ihre Absonderun verringern, Ihre Nachbarn, Ihre Familie und Ihre Kollegen, dann wird das einen großen Einfluss haben.",
+        "response_good": "Wenn jeder sein Bestes gibt, können wir unseren CO2-Fußabdruck verringern."
+    }
+]

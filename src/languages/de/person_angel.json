@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Hat Ihre Ernährung einen Einfluss auf die Ökologie?",
+        "bad": "Nein",
+        "good": "Ja, es kommt darauf an, woher das Essen kommt.",
+        "response": "Wegen der Landwirtschaft werden große Teile der Wälder zerstört. Es ist daher wichtig, sie zu schützen, da Bäume und Pflanzen Kohlenstoff aus der Atmosphäre aufnehmen. Darüber hinaus produziert die Landwirtschaft während ihres Lebenszyklus eine große Menge an Treibhausgasen (80% der Emissionen des Agrarsektors in Frankreich). Eine Reduzierung der Fleischmenge und die Bevorzugung von Produkten aus biologischer Landwirtschaft führen zu einer Reduzierung dieser Gase.",
+        "response_bad": "Die Herkunft Ihrer Lebensmittel hat einen größeren Einfluss auf die Erderwärmung als Sie denken.",
+        "response_good": "Genau."
+    },
+    {
+        "question": "Was sind die extremsten Risiken im Zusammenhang mit der globalen Erwärmung?",
+        "good": "Extreme Ereignisse wie Überschwemmungen oder Dürren.",
+        "bad": "Abgesehen von durchschnittlich 2°C mehr, nicht viel.",
+        "response": "Die größten Risiken sind extreme Wetterereignisse, d. h. Dürreperioden, Überschwemmungen, Stürme, Wirbelstürme sowie Hitze- und Kältewellen. Hinzu kommen Trendentwicklungen wie der Anstieg des Meeresspiegels oder der Temperaturen.",
+        "response_bad": "Auch wenn 2°C nicht viel erscheint, kann dies große Auswirkungen auf die Umwelt haben.",
+        "response_good": "Genau!"
+    },
+    {
+        "question": "Wissen Sie, wie Sie Ihren CO2-Fußabdruck zu Hause verringern können?",
+        "bad": "Ich bin nicht daran interessiert, dem Klima zu helfen.",
+        "good": "Ja",
+        "response": "Um Ihren CO2-Fußabdruck zu Hause zu verringern, schalten Sie einfach Ihre Standby-Geräte aus (-6 kg), reduzieren Sie die Temperatur Ihrer Heizung um 1 oder 2°C (-12 kg) und trinken Sie kein abgefülltes Wasser mehr (-148 kg).",
+        "response_bad": "Die meisten Maßnahmen zur Senkung Ihrer Emissionen erfordern nicht viel Aufwand.",
+        "response_good": ""
+    }
+]

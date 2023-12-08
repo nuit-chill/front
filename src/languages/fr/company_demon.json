@@ -1,13 +1,5 @@
 [
     {
-        "question": "Est-ce que la température mondiale est influencé par les gaz à effets de serre ?",
-        "bad": "Impossible",
-        "good": "Je pense, sinon on n'en ferais pas un si grand problème.",
-        "response": "Les gaz à effets de serre permettent de garder la température moyenne sur Terre à +15°C. Sans eux, il ferait -18°C rendant la vie impossible.",
-        "response_bad": "Biensur que si!",
-        "response_good": "Vous avez raison."
-    },
-    {
         "question": "Les financements à l'internationale, permettent-ils éfficacement de contrer le réchauffement climatique ?",
         "good": "Nous devrons payer plus.",
         "bad": "Oui, beaucoup de pays s'entre aident à propos de ce sujet.",
@@ -32,7 +24,7 @@
         "response_good": ""
     },
     {
-        "question": "Dans quel domaine dois-je plutôt investir pour accélerer le rechauffement climatique ?",
+        "question": "Dans quel domaine dois-je plutôt investir pour ralentir le rechauffement climatique ?",
         "bad": "Il me faut augmenter le financement public aux énergies fossiles à l'export. L'extraction, la transformation et le transport des énergies fossiles contribuent bien à l'émission de GES.",
         "good": "Je dois investir dans la rénovation énergétique des bâtiments. Les bâtiments représentent 20 % des émissions de gaz à effet de serre.",
         "response": "La plus grande part et la plus grande croissance des émissions brutes de GES se produisent dans le CO2 provenant de la combustion des énergies fossiles et des processus industriels, alors qu'investir dans la rénovation énergétique permettra de mieux isoler les bâtiments et réguler leur température ce qui va réduire fortement la consommation d'énergie et ne va donc qu'améliorer la vie des gens.",

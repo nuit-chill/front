@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Should we reduce air travel?",
+        "bad": "No, it's the easiest way to travel.",
+        "good": "Yes, it emits a lot of greenhouse gases.",
+        "response": "Aircraft are responsible for 2.4% of CO2 emissions. For the moment, there is no energy solution that can keep pace with the growth of this sector. Reducing these emissions is currently the most effective way of doing so.",
+        "response_good": "Although it is a means of transport that is often used, even for short distances, because of the cost and time involved, it is important to reduce its use.",
+        "response_bad": "Simple does not mean good for the environment."
+    },
+    {
+        "question": "When should you replace your old appliances?",
+        "good": "When they are broken and impossible to repair",
+        "bad": "When the new model is released.",
+        "response": "When buying an electronic device, it's important to bear in mind that you'll be using it for many years to come. Don't buy because of trends, choose because of functionality, perhaps even because of your pre-knowledge of the model and your repair skills. Every appliance has a production cost and greenhouse gas emissions. As a result, buying a new one every year leaves a significant carbon footprint.",
+        "response_good": "That's the right answer!",
+        "response_bad": "Don't be so easily swayed by the crowds!"
+    },
+    {
+        "question": "Should we reduce car journeys?",
+        "bad": "No, my contribution would not have a significant impact.",
+        "good": "Yes, as long as there are other options.",
+        "response": "The transport sector is the biggest emitter of greenhouse gases in France (31%). It also accounts for a quarter of all global emissions. To reduce these emissions, it is advisable to give priority to other modes of transport (public transport, cycling, walking). ",
+        "response_bad": "On your own, you may not be able to change the world's destiny. But if you try to reduce your impact, and that of your neighbours, your family and your colleagues, it will have a major impact.",
+        "response_good": "If we all do our best, we can reduce our carbon footprint."
+    }
+]

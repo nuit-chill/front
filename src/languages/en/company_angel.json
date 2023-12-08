@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Is global temperature influenced by greenhouse gases?",
+        "bad": "Impossible",
+        "good": "I think so, otherwise it wouldn't be such a big issue.",
+        "response": "Greenhouse gases keep the average temperature on Earth at +15°C. Without them, it would be -18°C, making life impossible.",
+        "response_bad": "Of course it is!",
+        "response_good": "You're right."
+    },
+    {
+        "question": "Should we invest in renewable energies?",
+        "bad": "Nuclear energy works well. There's no need to change the way we work.",
+        "good": "Yes.",
+        "response": "Renewable energies will enable us to reduce our emissions in all sectors by at least half. In 2021, they will account for 19.3% of gross fine energy consumption.",
+        "response_bad": "Nuclear power provides enough energy, but its potential to help limit global warming is much less than that of wind or solar power.",
+        "response_good": ""
+    },
+    {
+        "question": "Are electric cars really better than internal combustion cars?",
+        "bad": "No, they emit more than combustion cars.",
+        "good": "Yes, otherwise we wouldn't be asked to change our car.",
+        "response": "Even if electric cars emit more emissions during their construction phase (on average +50%), their use on the other hand emits 15 times less than that of internal combustion cars. Its emissions are 2 to 5 times lower than those of combustion-powered cars in France.",
+        "response_bad": "That's true, but over an entire life cycle, electric cars emit less.",
+        "response_good": ""
+    },
+    {
+        "question": "Which areas should I invest in to combat global warming?",
+        "bad": "I need to invest in solar radiation modification (SRM) geoengineering to find a way of reflecting sunlight away from the Earth's surface in order to cool the planet and combat global warming.",
+        "good": "I need to improve the collection, sorting and recycling of industrial and construction waste (scrap metal, concrete aggregates, plastics, etc.).",
+        "response": "Investment in the circular economy, and recycling in particular, will make it possible to reduce the use of raw materials and hence emissions. However, the geo-engineering option is too risky. The long-term effects of such large-scale interventions on the Earth's climate system are not well understood, and there could be unintended consequences.",
+        "response_bad": "Oh, okay.",
+        "response_good": "Ah, that's a good idea !"
+    }
+]

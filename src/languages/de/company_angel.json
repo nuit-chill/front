@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Wird die globale Temperatur durch Treibhausgase beeinflusst?",
+        "bad": "Bestimmt nicht",
+        "good": "Ich denke, sonst gäbe es nicht so viel Aufruhr um dieses Thema.",
+        "response": "Treibhausgase sorgen dafür, dass die Durchschnittstemperatur auf der Erde bei +15 °C bleibt. Ohne sie würde es -18°C werden, was das Leben unmöglich machen würde.",
+        "response_bad": "Natürlich schon!",
+        "response_good": "Sie haben recht."
+    },
+    {
+        "question": "Sollte man in erneuerbare Energien investieren?",
+        "bad": "Die Atomenergie funktioniert gut. Es ist nicht notwendig, unsere Arbeitsweise zu ändern.",
+        "good": "Ja.",
+        "response": "Erneuerbare Energien werden es uns ermöglichen, unsere Emissionen in allen Sektoren um mindestens die Hälfte zu reduzieren. Im Jahr 2021 machten sie 19,3% des Bruttoendenergieverbrauchs aus.",
+        "response_bad": "Die Kernenergie liefert genug Energie, aber ihr Potenzial zur Begrenzung der globalen Erwärmung beizutragen, ist weitaus geringer als der von Wind- oder Solarenergie.",
+        "response_good": ""
+    },
+    {
+        "question": "Sind Elektroautos wirklich besser als Autos mit Verbrennungsmotor?",
+        "bad": "Nein, ihre Produktion ist emissionsreicher als die von Autos mit Verbrennungsmotor..",
+        "good": "Ja, sonst würde man uns nicht bitten, das Auto zu wechseln.",
+        "response": "Obwohl Elektroautos während der Bauphase mehr Emissionen verursachen (durchschnittlich +50%), ist der Verbrauch auf der anderen Seite 15-mal geringer als bei Autos mit Verbrennungsmotor. Die Emissionen von Elektroautos sind in Frankreich zwei- bis fünfmal geringer.",
+        "response_bad": "Das stimmt, aber über den gesamten Lebenszyklus gesehen, stoßen Elektroautos weniger Schadstoffe aus.",
+        "response_good": ""
+    },
+    {
+        "question": "In welchen Bereich sollte ich eher investieren, um die globale Erwärmung zu bekämpfen?",
+        "bad": "Ich muss in Solar Radiation Modification Geoengineering (SRM) investieren, um einen Weg zu finden, das Sonnenlicht von der Erdoberfläche weg zu reflektieren, um den Planeten zu kühlen und die globale Erwärmung zu bekämpfen.",
+        "good": "Ich muss die Sammlung, Sortierung und Recyclingquote von Industrie- und Bauabfällen (Schrott, Betongranulat, Plastik...) verbessern.",
+        "response": "Investitionen in die Kreislaufwirtschaft, insbesondere in Recycling, werden die Verwendung von Rohstoffen und damit auch die Emissionen reduzieren. Die Option des Geoengineerings ist jedoch zu riskant. Die langfristigen Auswirkungen solch großflächiger Eingriffe in das Klimasystem der Erde sind nicht gut und es könnte zu unbeabsichtigten Folgen kommen..",
+        "response_bad": "Ah, okay.",
+        "response_good": "Ah, das ist eine sehr gute Idee !"
+    }
+]

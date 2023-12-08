@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Ist internationale Finanzierung ein effektiver Weg, um die globale Erwärmung zu bekämpfen?",
+        "good": "Wir sollten mehr Hilfen bereitstellen.",
+        "bad": "Ja, viele Länder helfen sich schon seit langem gegenseitig.",
+        "response": "Die Industrieländer haben einen größeren CO2-Fußabdruck (34-45% der globalen Emissionen werden von den 10% der Haushalte mit dem höchsten Einkommen verursacht). Dennoch ist die Finanzierung unzureichend, insbesondere für Entwicklungsländer.",
+        "response_good": "Genau. Die entwickelten Länder tragen eine größere Verantwortung für die Emissionen und sollten ihr Bestes tun, den anderen zu helfen.",
+        "response_bad": "Auch wenn es bereits finanzielle Unterstützung gibt, ist diese bei weitem nicht ausreichend."
+    },
+    {
+        "question": "Ist es wirklich zwingend notwendig, unsere Emissionen jetzt zu senken, wenn man bedenkt, dass Frankreich nur 1% der weltweiten Emissionen ausmacht?",
+        "bad": "Nein, 1 % ist vernachlässigbar.",
+        "good": "Jeder Prozent ist wichtig!",
+        "response": "Gemäß dem Pariser Abkommen sollte das Ziel für die Pro-Kopf-Emissionen bei etwa 2 Tonnen liegen. Wenn man jedoch die 1% durch die Einwohner teilt, kommt man auf 6,2t CO2, was dem Dreifachen der Zielvorgabe entspricht. Wenn man die importierten Emissionen (im Ausland produzierte und nach Frankreich importierte Konsumgüter) hinzurechnet, hätte jeder Einwohner im Durchschnitt 9tCO2 emittiert, mehr als das Vierfache des angestrebten Ziels.",
+        "response_good": "Jedes Prozent ist wichtig, umso mehr, wenn ein Prozent auf 418 MtCO2eq Treibhausgasemissionen (2021) hinausläuft.",
+        "response_bad": "Selbst wenn 1% der Emissionen als möglich erscheint, liegt dies bei etwa 418 Mio. tCO2eq Treibhausgasemissionen (2021)."
+    },
+    {
+        "question": "Wie steht es um die Arbeitsplätze? Tausende von Menschen werden ihre Arbeitsplätze verlieren.",
+        "good": "Ja, aber es werden neue Arbeitsplätze geschaffen.",
+        "bad": "Man sollte nicht voranschreiten, um zu verhindern, dass unschuldige Menschen ihren Arbeitsplatz verlieren.",
+        "response": "Es stimmt, dass viele Arbeitsplätze vernichtet werden, aber noch mehr werden geschaffen. Laut der Internationalen Arbeitsorganisation (ILO) wird es 18 Millionen mehr Arbeitsplätze geben als davor. Dennoch ist es wichtig zu erkennen, dass nicht alle Regionen gleichermaßen betroffen sein werden.",
+        "response_bad": "Natürlich wird der Verlust so vieler Arbeitsplätze negative Auswirkungen haben, aber die Betroffenen werden die Möglichkeit haben, sich für die neuen Stellen zu bewerben.",
+        "response_good": ""
+    },
+    {
+        "question": "In welchen Bereich sollte ich eher investieren, um die globale Erwärmung zu verlangsamen?",
+        "bad": "Ich muss die öffentliche Finanzierung fossiler Energieträger für den Export erhöhen. Die Förderung, Verarbeitung und der Transport von fossilen Energieträgern tragen sehr wohl zu Treibhausgasemissionen bei.",
+        "good": "Ich muss in die erneuerbare Energien von Gebäuden investieren. Gebäude sind für 20 % der Treibhausgasemissionen verantwortlich.",
+        "response": "Der größte Anteil und das größte Wachstum der Brutto-Treibhausgasemissionen stammen aus der Verbrennung fossiler Brennstoffe und industriellen Prozessen, während Investitionen in die erneuerbare Energien zu einer besseren Gebäudeisolierung und Temperaturregelung führen, was den Energieverbrauch drastisch senkt und somit das Leben der Menschen verbessert.",
+        "response_bad": "Ah, dem muss ich aus dem Weg gehen!",
+        "response_good": "Gute Idee !"
+    }
+]

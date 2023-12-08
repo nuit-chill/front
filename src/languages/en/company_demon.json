@@ -1,0 +1,34 @@
+[
+    {
+        "question": "Is international funding effective in combating global warming?",
+        "good": "We need to pay more.",
+        "bad": "Yes, many countries are already helping each other on this issue. We don't need to pay more.",
+        "response": "Developed countries have a larger carbon footprint (34-45% of global emissions are made by the 10% of households with the highest incomes). However, funding is largely insufficient, especially for developing countries.",
+        "response_good": "Exactly. Developed countries have a greater responsibility towards emissions and should do their best to help others.",
+        "response_bad": "Even if there is already financial aid in place, it's not enough."
+    },
+    {
+        "question": "Is it really imperative to reduce our emissions now, given that France accounts for just 1% of global emissions?",
+        "bad": "No, 1% is negligible.",
+        "good": "Every percentage counts!",
+        "response": "According to the Paris Agreement, the target for per capita emissions should be around 2t. But if we divide the 1% by the population, we end up with 6.2t of CO2, three times the target. If we add imported emissions (consumer goods produced abroad and imported into France), each inhabitant would have emitted an average of 9tCO2, more than 4 times the target.",
+        "response_good": "Every percentage point is important, even more so if one percentage point is equivalent to 418 MtCO2eq of greenhouse gases (2021).",
+        "response_bad": "Even if a 1% increase in emissions seems small, this would amount to around 418 MtCO2eq of greenhouse gases (2021)."
+    },
+    {
+        "question": "What about jobs? Thousands of people will lose their jobs as a result of this fight.",
+        "good": "Yes, but new jobs will be created.",
+        "bad": "We must not move forward to avoid innocent people losing their jobs.",
+        "response": "It's true that many jobs will be destroyed, but even more will be created. According to the International Labour Organisation (ILO), there will be 18 million more jobs than before the fight. However, it is important to recognise that not all regions will be affected in the same way.",
+        "response_bad": "Of course the loss of so many jobs will have a negative impact, but the people affected will have the opportunity to apply for the new jobs.",
+        "response_good": ""
+    },
+    {
+        "question": "Where should I invest to slow down global warming?",
+        "bad": "I need to increase public funding for fossil fuel exports. The extraction, processing and transport of fossil fuels do contribute to greenhouse gas emissions.",
+        "good": "I need to invest in the energy renovation of buildings. Buildings account for 20% of greenhouse gas emissions.",
+        "response": "The biggest share and the biggest growth in gross GHG emissions is in CO2 from the combustion of fossil fuels and industrial processes, whereas investing in energy renovation will make it possible to insulate buildings better and regulate their temperature, which will greatly reduce energy consumption and therefore only improve people's lives.",
+        "response_bad": "Now that's a bad idea!",
+        "response_good": "Absolutly not !"
+    }
+]
