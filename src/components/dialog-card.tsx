@@ -60,7 +60,7 @@ function DialogCard(props: GameProps) {
 
   return (
     <Box w={"80vw"}>
-      <Text align={"center"}>
+      <Text align={"center"} h={"6em"}>
         {dialogState == "question" ? props.dialogs[currentQuestion].question : props.dialogs[currentQuestion].response}
       </Text>
 
@@ -115,8 +115,8 @@ function DialogCard(props: GameProps) {
                     className={"swiper"}
                     contents={
                       <>
-                        <Box position="absolute" border="10px" borderColor="gray.200">
-                          <Image src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+                        <Box position="absolute" border="10px" padding={"10px"} borderColor="gray.200">
+                          <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
                       </>
                     }
@@ -133,7 +133,7 @@ function DialogCard(props: GameProps) {
                     contents={
                       <>
                         <Box position="absolute" border="10px" borderColor="gray.200">
-                          <Image src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
+                          <Image borderRadius="lg" src="https://bit.ly/dan-abramov" alt="Dan Abramov" />
                         </Box>
                       </>
                     }
